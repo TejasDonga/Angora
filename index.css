@@ -323,3 +323,31 @@ nav{
     line-height: 35px;
     padding: 5px;
 }
+.footer-copyright{
+    /* border: 2px solid white; */
+    background-color:rgb(49, 49, 49);
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;    
+}
+.footer-icon{
+    padding: 10px 10px ;
+}
+.footer-icon a{
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    transition: all 0.2s linear;
+}
+.footer-icon a:hover{
+    color: red;
+}
+.copy-right a{
+    color: white;
+    text-decoration: none;
+}
+.copy-right a span{
+    color: #B0B0B0;
+}
